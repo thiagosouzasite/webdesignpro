@@ -1,11 +1,14 @@
 {
   "name": "webdesignpro",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.x"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3000 -H 0.0.0.0",
+    "start": "NODE_ENV=production NODE_OPTIONS='--max_old_space_size=256' next start -p 3000 -H 0.0.0.0",
     "lint": "next lint"
   },
   "dependencies": {
