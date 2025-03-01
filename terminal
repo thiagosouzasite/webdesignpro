@@ -1,0 +1,3 @@
+npx create-next-app@latest saas-webdesigners
+cd saas-webdesigners
+npm install axios mongoose jsonwebtoken bcryptjs swr @headlessui/react @heroicons/react 
